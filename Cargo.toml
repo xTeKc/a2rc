@@ -2,7 +2,7 @@
 name = "a2rc"
 version = "0.1.0"
 edition = "2021"
-description = "Add two uints from Assembly to Rust"
+description = "uints from Assembly to Rust"
 authors = ["xTekC"]
 
 [dependencies]
