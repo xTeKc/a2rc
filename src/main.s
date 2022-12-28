@@ -2,9 +2,9 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"[ASM] input one is: %i \n"
+	.string	"[C] input one is: %i \n"
 .LC1:
-	.string	"[ASM] input two is: %i \n"
+	.string	"[C] input two is: %i \n"
 	.text
 	.globl	add
 	.type	add, @function
@@ -132,8 +132,8 @@ div:
 	movl	$0, %eax
 	call	printf@PLT
 	movl	-4(%rbp), %eax
-	cltd
-	idivl	-8(%rbp)
+	movl	$0, %edx
+	divl	-8(%rbp)
 	leave
 	.cfi_def_cfa 7, 8
 	ret
