@@ -1,10 +1,10 @@
-# a2rc
+# a2rsc
 Assembly to Rust CLI
 
 ```
 uints from Assembly to Rust
 
-Usage: a2rc <COMMAND>
+Usage: a2rsc <COMMAND>
 
 Commands:
   add  Input two uints to add
