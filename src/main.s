@@ -2,9 +2,9 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"[C] input one is: %i \n"
+	.string	"[Assembly] input one is: %i \n"
 .LC1:
-	.string	"[C] input two is: %i \n"
+	.string	"[Assembly] input two is: %i \n"
 	.text
 	.globl	add
 	.type	add, @function
